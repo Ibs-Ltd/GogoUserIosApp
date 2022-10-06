@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FooterView_Cart" customModule="GoGo_Food" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="FooterView_Cart" id="iN0-l3-epB" customClass="FooterView_Cart" customModule="GoGo_Food" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="113"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5cI-Lb-ORY">
+                    <rect key="frame" x="0.0" y="0.0" width="444" height="113"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View your order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ff3-Xy-qD0">
+                            <rect key="frame" x="163.5" y="47" width="117.5" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <color key="textColor" name="white"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12.57" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlO-El-WO2">
+                            <rect key="frame" x="360" y="43" width="74" height="27.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                            <color key="textColor" name="white"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMk-ie-qZf">
+                            <rect key="frame" x="0.0" y="0.0" width="444" height="113"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal">
+                                <color key="titleColor" name="primaryColor"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="onTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="xjV-jP-P6d"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="primaryColor"/>
+                    <constraints>
+                        <constraint firstItem="sMk-ie-qZf" firstAttribute="top" secondItem="5cI-Lb-ORY" secondAttribute="top" id="5CN-4L-1Qj"/>
+                        <constraint firstAttribute="trailing" secondItem="OlO-El-WO2" secondAttribute="trailing" constant="10" id="5zQ-KA-tiz"/>
+                        <constraint firstItem="OlO-El-WO2" firstAttribute="centerY" secondItem="Ff3-Xy-qD0" secondAttribute="centerY" id="HOx-qU-Pnx"/>
+                        <constraint firstAttribute="bottom" secondItem="sMk-ie-qZf" secondAttribute="bottom" id="IY4-NN-Qtj"/>
+                        <constraint firstItem="Ff3-Xy-qD0" firstAttribute="centerY" secondItem="5cI-Lb-ORY" secondAttribute="centerY" id="KcH-OB-pqi"/>
+                        <constraint firstItem="sMk-ie-qZf" firstAttribute="leading" secondItem="5cI-Lb-ORY" secondAttribute="leading" id="YzR-im-vWO"/>
+                        <constraint firstAttribute="trailing" secondItem="sMk-ie-qZf" secondAttribute="trailing" id="bTq-1d-Af7"/>
+                        <constraint firstItem="Ff3-Xy-qD0" firstAttribute="centerX" secondItem="5cI-Lb-ORY" secondAttribute="centerX" id="m9B-F1-Ror"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5cI-Lb-ORY" secondAttribute="bottom" id="Fwl-pE-IWf"/>
+                <constraint firstItem="5cI-Lb-ORY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jdk-Cm-Zfm"/>
+                <constraint firstItem="5cI-Lb-ORY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LWO-jT-Pji"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5cI-Lb-ORY" secondAttribute="trailing" id="ZkC-SD-zhs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lbl_order" destination="Ff3-Xy-qD0" id="obc-bR-679"/>
+                <outlet property="lbl_price" destination="OlO-El-WO2" id="XbD-Fu-afs"/>
+            </connections>
+            <point key="canvasLocation" x="162.31884057971016" y="90.066964285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="primaryColor">
+            <color red="0.89803921568627454" green="0.13333333333333333" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,75 @@
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "06n-3b-977"; */
+"06n-3b-977.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "Welcome !"; ObjectID = "18H-Ia-J2j"; */
+"18H-Ia-J2j.text" = "Welcome !";
+
+/* Class = "UILabel"; text = "CHANGE LANGUAGE"; ObjectID = "1wb-lR-vZJ"; */
+"1wb-lR-vZJ.text" = "CHANGE LANGUAGE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3L9-Ho-nXx"; */
+"3L9-Ho-nXx.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "6Hg-Td-FII"; */
+"6Hg-Td-FII.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "6hS-5A-epu"; */
+"6hS-5A-epu.normalTitle" = "Edit";
+
+/* Class = "UILabel"; text = "E-mail (Optional)"; ObjectID = "7El-mm-3u1"; */
+"7El-mm-3u1.text" = "E-mail (Optional)";
+
+/* Class = "UILabel"; text = "PROFILE"; ObjectID = "BF7-ky-bHD"; */
+"BF7-ky-bHD.text" = "PROFILE";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "BiT-S5-II3"; */
+"BiT-S5-II3.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Enter phone number to continue"; ObjectID = "Bmc-Mv-Euk"; */
+"Bmc-Mv-Euk.text" = "Enter phone number to continue";
+
+/* Class = "UIButton"; normalTitle = "UPDATE"; ObjectID = "HlN-Lb-y8v"; */
+"HlN-Lb-y8v.normalTitle" = "UPDATE";
+
+/* Class = "UIButton"; normalTitle = "VERIFY CODE"; ObjectID = "LkN-C0-4Vd"; */
+"LkN-C0-4Vd.normalTitle" = "VERIFY CODE";
+
+/* Class = "UITextField"; placeholder = "235-609"; ObjectID = "QtC-3V-GjV"; */
+"QtC-3V-GjV.placeholder" = "235-609";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "Sm0-5P-9kC"; */
+"Sm0-5P-9kC.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Please enter the verification code via to your phone number"; ObjectID = "VPW-X6-gen"; */
+"VPW-X6-gen.text" = "Please enter the verification code via to your phone number";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "XKn-B7-Yep"; */
+"XKn-B7-Yep.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "SETTINGS"; ObjectID = "ZRR-6V-Euj"; */
+"ZRR-6V-Euj.text" = "SETTINGS";
+
+/* Class = "UITextField"; text = "+855-96-168-111"; ObjectID = "aIT-Y1-DWd"; */
+"aIT-Y1-DWd.text" = "+855-96-168-111";
+
+/* Class = "UILabel"; text = "Upline Code"; ObjectID = "b8a-ap-mwJ"; */
+"b8a-ap-mwJ.text" = "Upline Code";
+
+/* Class = "UILabel"; text = "You will get 4 digit verification code via sms"; ObjectID = "cxQ-Ye-jtI"; */
+"cxQ-Ye-jtI.text" = "You will get 4 digit verification code via sms";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "g6w-I4-bxj"; */
+"g6w-I4-bxj.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "EDIT PROFILE"; ObjectID = "o5I-LF-Zpt"; */
+"o5I-LF-Zpt.text" = "EDIT PROFILE";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "qHv-g2-bXu"; */
+"qHv-g2-bXu.text" = "Name";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "sQ5-t1-W8Y"; */
+"sQ5-t1-W8Y.text" = "Name";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "xfw-Rk-9oY"; */
+"xfw-Rk-9oY.text" = "Title";

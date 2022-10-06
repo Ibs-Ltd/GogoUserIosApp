@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchBar" customModule="Driver" customModuleProvider="target">
+            <connections>
+                <outlet property="searchView" destination="emw-3g-kpe" id="Wi4-19-OfV"/>
+                <outlet property="speechBtn" destination="16v-xr-yb7" id="Bmg-Zm-F6R"/>
+                <outlet property="view" destination="iN0-l3-epB" id="1mA-je-ooy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="466" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8La-c6-Kg1">
+                    <rect key="frame" x="0.0" y="15" width="466" height="40"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="What do you want to eat?" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="emw-3g-kpe">
+                            <rect key="frame" x="20" y="0.0" width="416" height="40"/>
+                            <color key="backgroundColor" name="BgColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16v-xr-yb7" customClass="SFButton" customModule="SpeechRecognizerButton">
+                            <rect key="frame" x="441" y="9" width="13" height="22.5"/>
+                            <state key="normal" image="speech"/>
+                            <connections>
+                                <outlet property="activityIndicatorView" destination="Wtg-Sa-pNb" id="kY9-18-4k3"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Wtg-Sa-pNb">
+                            <rect key="frame" x="437.5" y="10" width="20" height="20"/>
+                            <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" name="BgColor"/>
+                    <constraints>
+                        <constraint firstItem="emw-3g-kpe" firstAttribute="leading" secondItem="8La-c6-Kg1" secondAttribute="leading" constant="20" id="B1Y-AC-cLv"/>
+                        <constraint firstItem="Wtg-Sa-pNb" firstAttribute="centerY" secondItem="16v-xr-yb7" secondAttribute="centerY" id="DPG-tl-r0O"/>
+                        <constraint firstItem="emw-3g-kpe" firstAttribute="centerY" secondItem="8La-c6-Kg1" secondAttribute="centerY" id="EHC-8W-Om6"/>
+                        <constraint firstItem="16v-xr-yb7" firstAttribute="centerY" secondItem="8La-c6-Kg1" secondAttribute="centerY" id="S9a-LH-cQx"/>
+                        <constraint firstAttribute="height" constant="40" id="SAv-cx-Ozf"/>
+                        <constraint firstItem="emw-3g-kpe" firstAttribute="top" secondItem="8La-c6-Kg1" secondAttribute="top" id="efd-zb-rI3"/>
+                        <constraint firstItem="16v-xr-yb7" firstAttribute="leading" secondItem="emw-3g-kpe" secondAttribute="trailing" constant="5" id="fFZ-9h-5na"/>
+                        <constraint firstItem="Wtg-Sa-pNb" firstAttribute="centerX" secondItem="16v-xr-yb7" secondAttribute="centerX" id="gbf-YZ-V6m"/>
+                        <constraint firstAttribute="bottom" secondItem="emw-3g-kpe" secondAttribute="bottom" id="jCU-AR-sS6"/>
+                        <constraint firstAttribute="trailing" secondItem="16v-xr-yb7" secondAttribute="trailing" constant="12" id="lIF-ao-Vhm"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="addBottomShadow" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" name="BgColor"/>
+            <constraints>
+                <constraint firstItem="8La-c6-Kg1" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="jbG-ve-Avp"/>
+                <constraint firstItem="8La-c6-Kg1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xVa-Ij-hcm"/>
+                <constraint firstItem="8La-c6-Kg1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yGj-ME-oMI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-4.3478260869565224" y="375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="speech" width="13" height="22.5"/>
+        <namedColor name="BgColor">
+            <color red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

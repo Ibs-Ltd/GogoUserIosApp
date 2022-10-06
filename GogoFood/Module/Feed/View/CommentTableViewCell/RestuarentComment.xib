@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestuarentComment" rowHeight="75" id="mDn-Yf-l4f" customClass="RestuarentComment" customModule="GoGo_Food" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mDn-Yf-l4f" id="XrQ-oy-Xsk">
+                <rect key="frame" x="0.0" y="0.0" width="356" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Es4-Ue-lBv">
+                        <rect key="frame" x="10" y="4" width="298" height="67"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thomas" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIj-j1-NhU">
+                                <rect key="frame" x="34" y="9" width="256" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="I like this food very much" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlK-zl-lKD">
+                                <rect key="frame" x="34" y="29.5" width="256" height="28.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wIj-j1-NhU" firstAttribute="leading" secondItem="Es4-Ue-lBv" secondAttribute="leading" constant="34" id="2nN-AZ-ux1"/>
+                            <constraint firstItem="rlK-zl-lKD" firstAttribute="top" secondItem="wIj-j1-NhU" secondAttribute="bottom" constant="6" id="2zV-Sa-pHu"/>
+                            <constraint firstAttribute="trailing" secondItem="wIj-j1-NhU" secondAttribute="trailing" constant="8" id="4y3-Eh-0uo"/>
+                            <constraint firstAttribute="bottom" secondItem="rlK-zl-lKD" secondAttribute="bottom" constant="9" id="7P5-Nc-ATk"/>
+                            <constraint firstItem="rlK-zl-lKD" firstAttribute="trailing" secondItem="wIj-j1-NhU" secondAttribute="trailing" id="aor-YL-5SM"/>
+                            <constraint firstItem="rlK-zl-lKD" firstAttribute="leading" secondItem="wIj-j1-NhU" secondAttribute="leading" id="b5f-1a-1oV"/>
+                            <constraint firstItem="wIj-j1-NhU" firstAttribute="top" secondItem="Es4-Ue-lBv" secondAttribute="top" constant="9" id="iB3-Gf-giu"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AD" translatesAutoresizingMaskIntoConstraints="NO" id="hOB-iH-2ck">
+                        <rect key="frame" x="316" y="24.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="TMN-EQ-Gx7"/>
+                            <constraint firstAttribute="height" constant="25" id="elN-lL-Kia"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" name="white"/>
+                <constraints>
+                    <constraint firstItem="Es4-Ue-lBv" firstAttribute="leading" secondItem="XrQ-oy-Xsk" secondAttribute="leading" constant="10" id="3sZ-Fi-2bT"/>
+                    <constraint firstAttribute="trailing" secondItem="hOB-iH-2ck" secondAttribute="trailing" constant="15" id="979-2v-4Ow"/>
+                    <constraint firstAttribute="bottom" secondItem="Es4-Ue-lBv" secondAttribute="bottom" constant="4" id="9X3-fg-0n4"/>
+                    <constraint firstItem="hOB-iH-2ck" firstAttribute="centerY" secondItem="Es4-Ue-lBv" secondAttribute="centerY" constant="-0.5" id="Aho-91-gkp"/>
+                    <constraint firstAttribute="trailing" secondItem="Es4-Ue-lBv" secondAttribute="trailing" constant="48" id="USZ-KQ-I2d"/>
+                    <constraint firstItem="Es4-Ue-lBv" firstAttribute="top" secondItem="XrQ-oy-Xsk" secondAttribute="top" constant="4" id="lYb-1Q-k6e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="KJ6-qb-Ehs"/>
+            <connections>
+                <outlet property="restuarentCommentLbl" destination="rlK-zl-lKD" id="W8e-nd-d0a"/>
+                <outlet property="restuarentImage" destination="hOB-iH-2ck" id="aDu-OI-RqK"/>
+                <outlet property="restuarentnameLbl" destination="wIj-j1-NhU" id="DDs-Qn-boP"/>
+            </connections>
+            <point key="canvasLocation" x="163.768115942029" y="121.54017857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AD" width="21" height="15"/>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

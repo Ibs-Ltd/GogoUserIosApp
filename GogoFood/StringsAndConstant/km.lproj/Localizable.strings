@@ -1,0 +1,168 @@
+/* 
+  Localizable.strings
+  GogoFood
+
+  Created by YOGESH BANSAL on 11/02/20.
+  Copyright © 2020 YOGESH BANSAL. All rights reserved.
+*/
+
+//select Language
+"Khmer" = "ខ្មែរ";
+"English" = "អង់គ្លេស";
+"Chinese" = "ចិន";
+"SAVE" = "រក្សាទុក";
+
+
+//Register
+"Enter Phone Number" = "បញ្ចូលលេខទូរស័ព្វរបស់អ្នក";
+"We need to verify and secure your account" = "យើងខ្ញុំត្រូវកាត្រួតពិនិតដើម្បីរក្សាសុវត្ថភាពគណនីរបស់អ្នក";
+
+"Next" = "បន្ទាប់";
+
+//Verify
+"Please enter the verification code via to your phone number" = "សូមបញ្ចូលលេខកូដបញ្ជាក់តាមរយៈលេខទូរស័ព្ទរបស់អ្នក";
+"Verify Code" = "លេខកូដបញ្ជាក់";
+"Don't get code?" = "មិនទទួលបានលេខកូដ";
+"Resend code" = "សូមផ្ញើរលេខកូដម្តងទៀត";
+
+
+
+
+
+
+
+
+////settingsScreen
+"SETTINGS" = "ការកំណត់";
+"My Address" = "អាសយដ្ឋានរបស់ខ្ញុំ";
+"Favorite" = "ចំណង់ចំណូលចិត្ត";
+"My Wallet" = "កាបូបលុយខ្ញុំ";
+"Change Languages" = "ផ្លាស់ផ្តូភាសា";
+"Support Center" = "សេវាកម្មបម្រើអតិថិជន";
+"Sign Out" = "ចាកចេញ";
+"Version"  = "កំណែទម្រង់";
+"Are you sure you want to sign out?" = "តើអ្នកប្រាកដថាត្រូវចាកចេញមែនទេ?";
+"Cancel" = "លុបចោល";
+"Yes" = "បាទ / ចាស";
+"Logout" = "ចាកចេញ";
+
+
+//my wallet
+"Balance (USD)" = "សមតុល្យជាប្រាក់ដុល្លារ";
+"Recent Activity" = "សកម្មភាពថ្មីៗ";
+"ID" = "គណនី​";
+"Top Up" = "បញ្ចូលទឹកប្រាក់";
+"Recent Activity" = "សកម្មភាពថ្មីៗ";
+"Transfer from your earning" = "ផ្ទេរមកពីប្រាក់ចំណូលពីការណែនាំ";
+"Paid" = "បានចំណាយរួច";
+
+//Favorite
+"FAVOURITE FOOD" = "ចូលចិត្ត";
+"What do you want to eat?" = "តើអ្នកចង់បរិភោគអ្វីដែរ?";
+"likes" = "ចូលចិត្ត";
+"sold" = "បានលក់";
+"Comments" = "យោបល់";
+"Shares" = "ចែករម្លែក";
+"min" = "នាទី";
+"Write Comment" = "សរសេរមតិយោបល់";
+
+//Add location
+"Change Location" = "ផ្លាស់ប្តូរទីតាំង";
+"ADD LOCATION" = "បន្ថែមទីតាំង";
+"Search" = "ស្វែងរក";
+"Restaurant" = "ភោជនីយដ្ឋាន";
+"Dishes" = "ចាន";
+
+//Invite & Earn
+"Invite Detail" = "ព័ត៌មានពិស្តារ";
+"Invite Friend via social media" = "ណែនាំមិត្តតាមបណ្តាញសង្គម";
+"Invite Friend via SMSs" = "ណែនាំមិត្តតាមសារទូរស័ព្ទ";
+"Invite with QR Code" = "ណែនាំតាមQRកូដ";
+"SHARE" = "ចែករម្លែក";
+
+//Tabbar
+"Home" = "ទំព័រដើម";
+"INVITE & EARN" = "ណែនាំបានលុយ";
+"History" = "ប្រវត្តិបញ្ជាទិញ";
+"Notification" = "សេចក្តីជូនដំណឹង";
+
+//History
+"HISTORY" = "ប្រវត្តិបញ្ជាទិញ";
+"Order ID" = "លេខរៀងការកម្ម៉ង់";
+"By" = "ដោយ";
+"Setting" = "កំណត់";
+"Cash payment" = "ទូទាត់ជាសាច់ប្រាក់";
+"Items" = "មុខកម្ម៉ង់";
+
+//order detail
+"Order Detail" = "ព័ត៌មានលម្អិតពីការកម្ម៉ង់";
+"Subtotal" = "សរុបរង";
+"Delivery Fee" = "ថ្លៃឈ្នួលដឹកជញ្ជូន";
+"incl. VAT" = "រួមបញ្ចូលអាករបន្ថែម";
+"Delivery Detail" = "ព័ត៌មានលម្អិតពីការដឹកជញ្ជូន";
+"Payment method" = "វិធីសាស្ត្រទូទាត់";
+"Total Payment" = "ប្រាក់ទូទាត់សរុប";
+"Cash on delivery" = "ទូទាត់ជាសាច់ប្រាក់";
+"Wallet" = "ទូរទាត់តាមកាបូបលុយ";
+"CHECK OUT" = "ពិនិត្យមុនចាកចេញ";
+"View Products" = "ពិនិត្យផលិតផល";
+"TOP ORDERS" = "កម្ម៉ង់ច្រើនបំផុត";
+"RECOMMENDED" = "ណែនាំជូន";
+"ALL RESTAURANT" = "ភោជនីយដ្ឋានទាំងអស់";
+"All" = "ទាំងអស់";
+"order now" = "កម្ម៉ង់ឥឡូវនេះ";
+"Sold" = "បានលក់";
+
+//profile
+
+"Name" =  "ឈ្មោះ";
+"Phone number" = "លេខទូរស័ព្ទ";
+"E-mail ( Optional )" = "អ៊ីមែល(មិនដាក់ក៍បាន)";
+"Referrer Code" = "លេខកូដមេបណ្តាញ";
+"Update" = "ធ្វើបច្ចុប្បន្នភាព";
+"Profile" = "ប្រវត្តិរូប";
+"My Order" = "គោល​បំណង​របស់​ខ្ញុំ";
+"Term & Condition" = "លក្ខខណ្";
+"Privacy" = "ភាពឯកជន";
+"Update" = "ធ្វើបច្ចុប្បន្នភាព";
+"What do you want to eat?" = "តើអ្នកចង់បរិភោគអ្វីដែរ?";
+"sms" = "សារ";
+
+
+"Invite Detail" = "ព័ត៌មានពិស្តារ";
+"Total Invitee" = "ចំនួនណែនាំសរុប";
+"Total Earn" =  "ចំណូលទទួលបានសរុប";
+ "Invited"  = "ចំនួនណែនាំ";
+"Earned" = "ប្រាក់ទទួលបាន";
+"Level" =  "កម្រិត";
+"Reward balance to wallet" = "សមតុល្យរង្វាន់ផ្ទេរទៅកាបូបលុយ";
+"Add balance" = "បន្ថែមសមតុល្យ";
+"SEND" = "ផ្ញើរ";
+"If you have any question or something you can tell, please contact to support center." = "ប្រសិនបើអ្នកមានសំណួរ ឬ មានបញ្ហាអ្វីមួយ សូមទាក់ទងមកកាន់ភ្នាក់ងាបម្រើអតិថិជន";
+"Upline code" = "លេខកូដណែនាំ";
+"Edit Profile" = "កែប្រែពត៌មាន";
+"Current balance" = "ប្រាក់បច្ចុប្បន្ន";
+"There is no favorite item yet!" = "មិនមានរបស់ដែលពេញចិត្តទេ!";
+"There is no notification yet!" = "មិនទមានការជូនដំណឹងនៅឡើយទេ!";
+"There is no item matching your search yet!" = "មិនមានការស្វែងរករបស់អ្នកទេ!";
+"There is not item in cart yet!" = "មិនមានអាហារបានជ្រើសរើសនៅឡើយទេ!";
+"There is no invited member yet!​" =  "មិនមានសមាជិកដែលបានណែនាំនៅឡើយទេ!";
+"There is no order yet!" =  "មិនទាន់មានការកម្មង់ទេ!";
+"There is no transaction yet!" = "មិនមានប្រតិបត្តិការទេ!";
+"The our service is not available in your region!" = "សេវាកម្មយើងខ្ញុំមិនដាក់ដំណើការនៅតំបន់របស់អ្នកទេ";
+"We're Sorry" =  "យើងខ្ញុំសូមអភ័យទោស";
+"mn" = "នាទី";
+"Do you have a coupon code?" = "តើអ្នកមានលេខគូប៉ុងទេ?";
+"Total (Include VAT)" = "រួមបញ្ចូលអាករបន្ថែម";
+"Contact Info" =   "ព័ត៌មានទំនាក់ទំនង";
+"Food category" = "ប្រភេទមុខម្ហូប";
+"Sort" = "តម្រៀប";
+"Low" =  "ទាប";
+"High"  =  "ខ្ពស់";
+"Apply Filter"  = "សាកសម្រាំង";
+"Price" = "តម្លៃ";
+"Do you want to change  delivery location?" =  "តើអ្នកចង់ផ្លាស់ប្តូរទីតាំងឬទេ?";
+"Confirm Order" = "បញ្ជាក់ការបញ្ជាទិញ";
+"View your order" = "ពិនិត្យការកម្ម៉ង់";
+"Tap to change" = "ចុចដើម្បីប្តូរ";
+

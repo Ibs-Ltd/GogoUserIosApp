@@ -1,0 +1,170 @@
+/* 
+  Localizable.strings
+  GogoFood
+
+  Created by YOGESH BANSAL on 11/02/20.
+  Copyright © 2020 YOGESH BANSAL. All rights reserved.
+*/
+
+
+//select Language
+"Khmer" = "高棉语";
+"English" = "英语";
+"Chinese" = "中文";
+"SAVE" = "保存";
+
+//Register
+"Enter Phone Number" = "输入您的电话号码";
+"We need to verify and secure your account" = "我们需要验证和保护您的帐";
+
+"Next" = "下一个";
+
+//Verify
+"Please enter the verification code via to your phone number" = "“请通过输入验证码";
+"Verify Code" = " 你的电话号码”";
+"Don't get code?" = "验证码";
+"Resend code" = "没有代码？";
+
+
+
+////settingsScreen
+
+"SETTINGS" = "设定值";
+"My Address" = "我的地址";
+"Favorite" = "喜爱";
+"My Wallet" = "我的钱包";
+"Change Languages" = "改变语言";
+"Support Center" = "支持中心";
+"Sign Out" = "唱出来";
+"Version"  = "版";
+"Are you sure you want to sign out?" = "您确定要退出吗";
+"Cancel" = "取消";
+"Yes" = "是";
+"Logout" = "登出";
+
+
+//my wallet
+"Balance (USD)" = "余额（美元）";
+"Recent Activity" = "近期活动";
+"ID" = "编号";
+"Top Up" = "充值";
+"Recent Activity" = "近期活动";
+"Transfer from your earning" = "从您的收入转移";
+"Paid" = "已付费";
+
+//Favorite
+"FAVOURITE FOOD" = "喜爱";
+"What do you want to eat?" = "你想吃什么？";
+"likes" = "喜欢";
+"sold" = "已卖出";
+"Comments" = "注释";
+"Shares" = "分享";
+"min" = "分";
+"Write Comment" = "發表評論";
+
+
+//Add location
+"Change Location" = "換地點";
+"ADD LOCATION" = "添加位置";
+"Search" = "搜索";
+"Restaurant" = "餐厅";
+"Dishes" = "碟子";
+
+
+//Invite & Earn
+"Invite Detail" = "邀请详情";
+"Invite Friend via social media" = "通过社交媒体邀请朋友";
+"Invite Friend via SMSs" = "通过短信邀请朋友";
+"Invite with QR Code" = "用QR码邀请";
+"SHARE" = "分享";
+
+
+//Tabbar
+"Home" = "首页";
+"INVITE & EARN" = "邀请并赚取";
+"History" = "历史";
+"Notification" = "提名人";
+
+
+//History
+"HISTORY" = "历史";
+"Order ID" = "订单编号";
+"By" = "通过";
+"Setting" = "设置";
+"Cash payment" = "现金支付";
+"Items" = "物品";
+
+//order detail
+"Order Detail" = "订单详情";
+"Subtotal" = "小计";
+"Delivery Fee" = "发送费";
+"incl. VAT" = "含税增值税";
+"Delivery Detail" = "交货细节";
+"Payment method" = "付款方法";
+"Total Payment" = "总付款";
+"Cash on delivery" = "货到付款";
+"Wallet" = "钱包";
+"CHECK OUT" = "查看";
+"View Products" = "查看产品";
+"TOP ORDERS" = "最高订单";
+"RECOMMENDED" = "推荐的";
+"ALL RESTAURANT" = "所有餐厅";
+"All" = "所有";
+"order now" = "现在下单";
+"Sold" = "已售出";
+
+"Name" = "名称";
+"Phone number" = "电话号码";
+"E-mail ( Optional )" = "电子邮件（可选";
+"Referrer Code" = "推荐人代码";
+"Update" = "更新资料";
+"Profile" = "个人资料";
+"My Order" = "我的订单";
+"Term & Condition" = "条款和条件";
+"Privacy" = "隐私";
+"Update" = "更新资料";
+"What do you want to eat?" = "你想吃什么";
+"sms" = "短信";
+
+
+"Invite Detail"    =    "邀请详情";
+"Total Invitee"   =  "受邀者总数";
+"Total Earn"    =    "总收入";
+"Invited :"    =    "邀请：";
+"Earned"    =  "获得";
+"Level"    =    "水平";
+"Reward balance to wallet"    =   "奖励余额到钱包";
+"Add balance"    =   "增加余额";
+"SEND"    =    "发送";
+"If you have any question or something you can tell, please contact to support center." = "如果您有任何问题或东西，你可以告诉,请联系支持中心";
+"Upline code" =   "上行代码";
+"Edit Profile" = "编辑配置文件";
+"Current balance" =  "当前余额";
+
+
+"There is no favorite item yet!" = "目前还没有最喜欢的项目呢";
+"There is no notification yet!" = "没有通知呢！";
+"There is no item matching your search yet!" = "有没有项目匹配您的搜索呢！";
+"There is not item in cart yet!" = "购物车中还没有商品！";
+"There is no invited member yet!​" =  "没有被邀请的成员呢！";
+"There is no order yet!" =  "还没有命令！";
+"There is no transaction yet!" = "没有交易呢！";
+
+"The our service is not available in your region!" = "我们的服务不在您所在地区提供！";
+"We're Sorry" =  "我们很抱歉";
+"mn" = "分钟";
+"Do you have a coupon code?" = "您有优惠券代码吗？";
+"Total (Include VAT)" = "总计（含增值税）";
+"Contact Info" =   "联络资料";
+"Food category" = "食品类";
+"Sort" = "分类";
+"Low" =  "低";
+"High"  =  "高";
+"Apply Filter"  = "套用筛选器";
+"Price" = "价钱";
+"Do you want to change  delivery location?" =  "您想更改送货地点吗? ";
+"Confirm Order" = "确认订单";
+"View your order" = "查看您的订单";
+"Tap to change" = "点击更改";
+
+

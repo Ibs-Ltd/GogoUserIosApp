@@ -1,0 +1,174 @@
+/* 
+  Localizable.strings
+  GogoFood
+
+  Created by YOGESH BANSAL on 11/02/20.
+  Copyright © 2020 YOGESH BANSAL. All rights reserved.
+*/
+
+//select Language
+"Khmer" = "Khmer";
+"English" = "English";
+"Chinese" = "Chinese";
+"SAVE" = "SAVE";
+
+
+//registration
+
+//Register
+"Enter Phone Number" = "Enter your phone number";
+"We need to verify and secure your account" = "We need to verify and secure your account";
+"Next" = "Next";
+
+//Verify
+"Please enter the verification code via to your phone number" = "Please enter the verification code via to your phone number";
+"Verify Code" = "Verify Code";
+"Don't get code?" = "Don't get code?";
+"Resend code" = "Resend code";
+
+
+
+
+
+
+
+
+
+//Settings
+"SETTINGS" = "ACCOUNT";
+"My Address" = "My Address";
+"My Wallet" = "My Wallet";
+"Favorite" = "Favorite";
+"Change Languages" = "Change Language";
+"Support Center" = "Support Center";
+"Sign Out" = "Sign Out";
+"Version"  = "Version";
+"Are you sure you want to sign out?" = "Are you sure you want to sign out?";
+"Cancel" = "Cancel";
+"Yes" = "Yes";
+"Logout" = "Logout";
+
+
+//my wallet
+"Balance (USD)" = "Balance (USD)";
+"Recent Activity" = "Recent Activity";
+"ID" = "ID";
+"Top Up" = "Top Up";
+"Recent Activity" = "Recent Activity";
+"Transfer from your earning" = "Transfer from your earning";
+"Paid" = "Paid";
+
+//Favorite
+"FAVOURITE FOOD" = "FAVOURITE";
+"What do you want to eat?" = "What do you want to eat?";
+"likes" = "likes";
+"sold" = "SOLD";
+"Comments" = "Comments";
+"Shares" = "Shares";
+"min" = "min";
+"Write Comment" = "Write Comment";
+
+//Add location
+"Change Location" = "Change Location";
+"ADD LOCATION" = "ADD LOCATION";
+"Search" = "Search";
+"Restaurant" = "Restaurants";
+"Dishes" = "Dishes";
+
+
+//Invite & Earn
+"Invite Detail" = "Invite Detail";
+"Invite Friend via social media" = "Invite Friend via social media";
+"Invite Friend via SMSs" = "Invite Friend via SMSs";
+"Invite with QR Code" = "Invite with QR Code";
+"SHARE" = "SHARE";
+
+//Tabbar
+"Home" = "Home";
+"INVITE & EARN" = "INVITE&EARN";
+"History" = "History";
+"Notification" = "Notification";
+
+//History
+"HISTORY" = "HISTORY";
+"Order ID" = "Order ID";
+"By" = "By";
+"Setting" = "Setting";
+"Cash payment" = "Cash payment";
+"Items" = "Items";
+
+
+//order detail
+"Order Detail" = "Order Detail";
+"Subtotal" = "Subtotal";
+"Delivery Fee" = "Delivery Fee";
+"incl. VAT" = "incl. VAT";
+"Delivery Detail" = "Delivery Detail";
+"Payment method" = "Payment method";
+"Total Payment" = "Total Payment";
+"Cash on delivery" = "Cash on delivery";
+"Wallet" = "Wallet";
+"CHECK OUT" = "CHECK OUT";
+"View Products" = "View Products";
+"TOP ORDERS" = "TOP ORDERS";
+"RECOMMENDED" = "RECOMMENDED";
+"ALL RESTAURANT" = "ALL RESTAURANT";
+"All" = "All";
+"order now" = "Order now";
+"Sold" = "Sold";
+
+//profile
+
+"Name" = "Name";
+"Phone number" = "Phone Number";
+"E-mail ( Optional )" = "E-mail ( Optional )";
+"Referrer Code" = "Referrer Code";
+"Update" = "Update";
+"Profile" = "Profile";
+"My Order" = "My Orders";
+"Term & Condition" = "Term & Condition";
+"Privacy" = "Privacy";
+"Update" = "Update";
+"What do you want to eat?" = "What do you want to eat?";
+"sms" = "sms";
+
+"Invite Detail" = "Invite Detail";
+"Total Invitee" = "Total Invitee";
+"Total Earn" = "Total Earn";
+"Invited"  = "Invited";
+"Earned" = "Earned";
+"Level" = "Level";
+"Reward balance to wallet" = "Reward balance to wallet";
+"Add balance" = "Add balance";
+"SEND" = "SEND";
+"If you have any question or something you can tell, please contact to support center." = "If you have any question or something you can tell, please contact to support center.";
+"Upline code" = "Upline code";
+"Edit Profile" = "Edit Profile";
+"Current balance" = "Current balance";
+"There is no favorite item yet!" = "There is no favorite item yet!";
+"There is no notification yet!" = "There is no notification yet!";
+"There is no item matching your search yet!" = "There is no item matching your search yet!";
+"There is not item in cart yet!" = "There is not item in cart yet!";
+"There is no invited member yet!​" =  "There is no invited member yet!​";
+"There is no order yet!" =  "There is no order yet!";
+"There is no transaction yet!" = "There is no transaction yet!";
+"The our service is not available in your region!" = "The our service is not available in your region!";
+"We're Sorry" =  "We're Sorry";
+"mn" = "mn";
+"Do you have a coupon code?" = "Do you have a coupon code?";
+"Total (Include VAT)" = "Total (Include VAT)";
+"Contact Info" = "Contact Info";
+"Food category" = "Food category";
+"Sort" = "Sort";
+"Low" =  "Low";
+"High"  =  "High";
+"Apply Filter"  = "Apply Filter";
+"Price" = "Price";
+"Do you want to change  delivery location?" =  "Do you want to change  delivery location?";
+"Confirm Order" = "Confirm Order";
+"View your order" = "View your order";
+"Tap to change" = "Tap to change";
+
+
+
+

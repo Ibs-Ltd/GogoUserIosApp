@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppStepper" customModule="Driver" customModuleProvider="target">
+            <connections>
+                <outlet property="currrentNumber" destination="YXu-K8-A5r" id="eS9-As-vVB"/>
+                <outlet property="decreaseButton" destination="Gqx-7P-HIw" id="QsN-hA-rna"/>
+                <outlet property="increaseButton" destination="wnP-ew-vfK" id="IOV-2c-vXr"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Isv-UL-iwo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="27"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auV-fp-oRM">
+                    <rect key="frame" x="13" y="0.0" width="59.5" height="27"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="QR3-90-FF7">
+                    <rect key="frame" x="0.0" y="0.0" width="85" height="27"/>
+                    <subviews>
+                        <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqx-7P-HIw">
+                            <rect key="frame" x="0.0" y="0.0" width="27" height="27"/>
+                            <state key="normal" image="minus-red"/>
+                            <connections>
+                                <action selector="onChangeQuantity:" destination="-1" eventType="touchUpInside" id="eeB-Mn-9sZ"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXu-K8-A5r">
+                            <rect key="frame" x="29" y="0.0" width="27" height="27"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnP-ew-vfK">
+                            <rect key="frame" x="58" y="0.0" width="27" height="27"/>
+                            <state key="normal" image="plusred"/>
+                            <connections>
+                                <action selector="onChangeQuantity:" destination="-1" eventType="touchUpInside" id="C5o-RO-k0b"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="QR3-90-FF7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0ah-Dg-whf"/>
+                <constraint firstItem="auV-fp-oRM" firstAttribute="width" secondItem="QR3-90-FF7" secondAttribute="width" multiplier="0.7" id="2Is-gG-wdH"/>
+                <constraint firstItem="QR3-90-FF7" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="9hb-xu-AwX"/>
+                <constraint firstAttribute="trailing" secondItem="QR3-90-FF7" secondAttribute="trailing" id="MXR-70-ItV"/>
+                <constraint firstItem="QR3-90-FF7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rhs-Mz-dsS"/>
+                <constraint firstItem="QR3-90-FF7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UJc-Qg-cop"/>
+                <constraint firstItem="auV-fp-oRM" firstAttribute="height" secondItem="QR3-90-FF7" secondAttribute="height" id="Wqy-Lp-ZGi"/>
+                <constraint firstItem="QR3-90-FF7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iEa-pz-vCg"/>
+                <constraint firstAttribute="bottom" secondItem="QR3-90-FF7" secondAttribute="bottom" id="sKg-xv-iEt"/>
+                <constraint firstAttribute="trailing" secondItem="QR3-90-FF7" secondAttribute="trailing" id="sbs-oR-kWl"/>
+                <constraint firstItem="auV-fp-oRM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="thm-lY-qV9"/>
+                <constraint firstItem="auV-fp-oRM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xVX-QI-tgW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="16.666666666666668" y="-5.6919642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="minus-red" width="72" height="72"/>
+        <image name="plusred" width="72" height="72"/>
+    </resources>
+</document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeFooterTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="HomeFooterTableViewCell" customModule="Driver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ez1-R5-gCG">
+                        <rect key="frame" x="0.0" y="0.0" width="388" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View your order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ua-ju-yHD">
+                                <rect key="frame" x="135.5" y="40.5" width="117.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" name="white"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12.57" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXc-xP-bu1">
+                                <rect key="frame" x="322" y="39.5" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="white"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNX-EX-Z06">
+                                <rect key="frame" x="0.0" y="0.0" width="388" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" name="primaryColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tvW-QE-DzD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="primaryColor"/>
+                        <constraints>
+                            <constraint firstItem="aXc-xP-bu1" firstAttribute="centerY" secondItem="3ua-ju-yHD" secondAttribute="centerY" id="bNA-ah-XN8"/>
+                            <constraint firstItem="3ua-ju-yHD" firstAttribute="centerY" secondItem="Ez1-R5-gCG" secondAttribute="centerY" id="cEK-dQ-lr5"/>
+                            <constraint firstAttribute="trailing" secondItem="aXc-xP-bu1" secondAttribute="trailing" constant="10" id="vb8-n7-msw"/>
+                            <constraint firstItem="3ua-ju-yHD" firstAttribute="centerX" secondItem="Ez1-R5-gCG" secondAttribute="centerX" id="yR8-ke-Q9Z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="primaryColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Ez1-R5-gCG" secondAttribute="trailing" id="5dm-BD-IrO"/>
+                    <constraint firstAttribute="bottom" secondItem="Ez1-R5-gCG" secondAttribute="bottom" id="8aC-IG-3GM"/>
+                    <constraint firstItem="Ez1-R5-gCG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Qbk-hD-WnT"/>
+                    <constraint firstItem="Ez1-R5-gCG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e2H-Pw-Box"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="button" destination="nNX-EX-Z06" id="ODb-49-4QA"/>
+                <outlet property="lbl_price" destination="aXc-xP-bu1" id="BpK-UU-96U"/>
+            </connections>
+            <point key="canvasLocation" x="186.95652173913044" y="108.48214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="primaryColor">
+            <color red="0.89803921568627454" green="0.13333333333333333" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
